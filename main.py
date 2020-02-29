@@ -35,10 +35,16 @@ data['Year'] = pd.to_numeric(data['Year'])
 # sns.barplot(y="Year", x="Total Enrollment", data=data)
 
 # Show total enrollment data from 1990-2016
+x = data['Year'][12:].values
+y = data['Total Enrollment'][12:].values
 fig, ax = plt.subplots()
-plt.plot(data['Year'][12:].values, data['Total Enrollment'][12:].values, '-r')
+plt.plot(x, y, '-og')
 plt.xlabel("Year")
-plt.ylabel("Total Enrollment")
+plt.ylabel("Total Enrollment(in thousands)")
 plt.title("Enrollment trend in U.S.")
+
+for a,b in zip(x[::5], y[::5]):
+    plt.text(a+.5, b-.5, str(b))
+
 plt.show()
 
