@@ -4,9 +4,21 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+def plot_graph(x, y, style, xlabel, ylabel, title):
+    plt.plot(x, y, style)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.title(title)
+
+    for a,b in zip(x[::5], y[::5]):
+        plt.text(a+0.2, b-0.5, str(b))
+
+    plt.show()
+
 
 # Load data from CSV downloaded from NCES(https://nces.ed.gov/programs/digest/d18/tables/dt18_105.30.asp)
-data = pd.read_csv('NCES_Enrollment_Data.csv', dtype={'Year':np.str, 'Total Enrollment':np.int32, 'Elementary & Secondary enrollment':np.int32,
+data = pd.read_csv('NCES_Enrollment_Data.csv', dtype={'Year':np.str, 'Total Enrollment':np.int32,
+       'Elementary & Secondary enrollment':np.int32,
        'Public elementary and secondary':np.int32,
        'Private elementary and secondary schools':np.int32,
        'Degree-granting postsecondary institutions Total':np.int32,
@@ -37,14 +49,12 @@ data['Year'] = pd.to_numeric(data['Year'])
 # Show total enrollment data from 1990-2016
 x = data['Year'][12:].values
 y = data['Total Enrollment'][12:].values
-fig, ax = plt.subplots()
-plt.plot(x, y, '-og')
-plt.xlabel("Year")
-plt.ylabel("Total Enrollment(in thousands)")
-plt.title("Enrollment trend in U.S.")
+y1 = data['Elementary & Secondary enrollment'][12:].values
+y2 = data['Degree-granting postsecondary institutions Total'][12:].values
 
-for a,b in zip(x[::5], y[::5]):
-    plt.text(a+.5, b-.5, str(b))
+plot_graph(x, y, '-og', "Year", "Total Enrollment(in thousands)", "Enrollment trend in U.S.")
+plot_graph(x, y1, '-ob', "Year", "Total Enrollment(in thousands) in Elementary and Secondary", "Enrollment trend in U.S.")
+plot_graph(x, y2, '-or', "Year", "Total Enrollment(in thousands) in Postgraduation", "Enrollment trend in U.S.")
 
-plt.show()
+
 
