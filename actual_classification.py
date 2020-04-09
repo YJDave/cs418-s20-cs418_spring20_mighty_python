@@ -11,6 +11,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.neighbors import KNeighborsClassifier
 
+pd.set_option('mode.chained_assignment', None)
+
+
 college_data = pd.read_csv('CollegeScorecard_Raw_Data/MERGED2017_18_PP.csv', low_memory = False) # Opens our data into a dataframe
 
 
@@ -58,12 +61,6 @@ svm = SVC()
 svm.fit(X_train, y_train)
 
 predictions = svm.predict(X_test)
-
-plt.title("SVM Predictions vs Actual")
-plt.scatter(y_test, predictions)
-plt.xlabel("Actual Values")
-plt.ylabel("Predictions")
-plt.show()
 
 # KNN
 knn = KNeighborsClassifier()
