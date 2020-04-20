@@ -1,0 +1,3 @@
+import visualization
+
+visualization.visualize()
