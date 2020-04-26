@@ -14,7 +14,7 @@ Mostly research blogs, report and articles related to student education treds
 
 5. A Look at the Shocking Student Loan Debt Statistics for 2020 by Student Loan Hero [link](https://studentloanhero.com/student-loan-debt-statistics/)
 
-6. what do we know about our nation’s students and schools? by NCES [link](https://nces.ed.gov/fastfacts/display.asp?id=372)
+6. What do we know about our nation’s students and schools? by NCES [link](https://nces.ed.gov/fastfacts/display.asp?id=372)
 
 7. College Graduation Statistics by EducationData [link](https://educationdata.org/number-of-college-graduates/)
 
@@ -45,3 +45,5 @@ Mostly research blogs, report and articles related to student education treds
 11. College Affordability and Transparency List by U.S. Department of Education [link](https://collegecost.ed.gov/affordability)
 
 12. Number of postsecondary students who entered the student loan repayment phase, number of students who defaulted within a 3-year period, and 3-year student loan cohort default rate, by level and control of institution: Fiscal years 2010 through 2014 by [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_332.50.asp)
+
+13. Degrees conferred by postsecondary institutions, by level of degree and sex of student: Selected years, 1869-70 through 2028-29 by NCES [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_318.10.asp)
