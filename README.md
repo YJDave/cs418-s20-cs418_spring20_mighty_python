@@ -1,5 +1,12 @@
 # cs418-s20-cs418_spring20_mighty_python
 
+### TODO:
+
+[ ] Add instructions on how to access the repository and all files metada details. 
+[ ] Clean repository, remove redundant work and move every file in one structure.
+[ ] Add previously submitted report, presentation to repository for record.
+[ ] Add documents/details on what work is done, how it is done, like a brief documentation
+
 ### References
 Mostly research blogs, report and articles related to student education treds
 
