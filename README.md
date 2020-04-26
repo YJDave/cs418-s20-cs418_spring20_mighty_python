@@ -12,6 +12,12 @@ Mostly research blogs, report and articles related to student education treds
 
 4. Payback Time? Measuring Progress on Student Debt Repayment by New York Fed [link](https://libertystreeteconomics.newyorkfed.org/2015/02/payback_time_measuring_progress_on_student_debt_repayment.html)
 
+5. A Look at the Shocking Student Loan Debt Statistics for 2020 by Student Loan Hero [link](https://studentloanhero.com/student-loan-debt-statistics/)
+
+6. what do we know about our nation’s students and schools? by NCES [link](https://nces.ed.gov/fastfacts/display.asp?id=372)
+
+7. College Graduation Statistics by EducationData [link](https://educationdata.org/number-of-college-graduates/)
+
 ### Dataset
 
 `*`: Dataset used in project
