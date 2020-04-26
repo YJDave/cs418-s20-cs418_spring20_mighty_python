@@ -7,6 +7,9 @@
 - [ ] Add previously submitted report, presentation to repository for record.
 - [ ] Add documents/details on what work is done, how it is done, like a brief documentation
 
+
+- [ ] Find and add data in 4.4, 4.5 section in `main.ipynb`
+
 ### References
 Mostly research blogs, report and articles related to student education treds
 
