@@ -1,5 +1,7 @@
 # Taken from https://github.com/github/gitignore/blob/master/Python.gitignore
 
+.DS_Store
+
 CollegeScorecard_Raw_Data/
 
 # Byte-compiled / optimized / DLL files
