@@ -19,11 +19,17 @@ Mostly research blogs, report and articles related to student education treds
 
 4. Payback Time? Measuring Progress on Student Debt Repayment by New York Fed [link](https://libertystreeteconomics.newyorkfed.org/2015/02/payback_time_measuring_progress_on_student_debt_repayment.html)
 
-5. A Look at the Shocking Student Loan Debt Statistics for 2020 by Student Loan Hero [link](https://studentloanhero.com/student-loan-debt-statistics/)
+5. A Look at the Shocking Student Loan Debt Statistics for 2020 by Student Loan Hero [link](https://studentloanhero.com/student-loan-debt-statistics/)*
 
 6. What do we know about our nation’s students and schools? by NCES [link](https://nces.ed.gov/fastfacts/display.asp?id=372)
 
 7. College Graduation Statistics by EducationData [link](https://educationdata.org/number-of-college-graduates/)
+
+8. Trends in Graduate Student Loan Debt by NCES [link](https://nces.ed.gov/blogs/nces/post/trends-in-graduate-student-loan-debt)
+
+9. QUARTERLY REPORT ON HOUSEHOLD DEBT AND CREDIT[link](https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/pdf/hhdc_2019q3.pdf)*
+
+10. Just Released: Press Briefing on Student Loan Borrowing and Repayment Trends, 2015 by New York Fed [link](https://libertystreeteconomics.newyorkfed.org/2015/04/just-released-press-briefing-on-student-loan-borrowing-and-repayment-trends-2015.html)*
 
 ### Dataset
 
@@ -58,3 +64,7 @@ Mostly research blogs, report and articles related to student education treds
 14. Average undergraduate tuition and fees and room and board rates charged for full-time students in degree-granting postsecondary institutions, by level and control of institution: Selected years, 1963-64 through 2017-18 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_330.10.asp)*
 
 15. Percentage of undergraduate degree/certificate completers who ever received loans and average cumulative amount borrowed, by degree level, selected student characteristics, and institution control: Selected years, 1999-2000 through 2015-16 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_331.95.asp)
+
+16. Different loan statistics by Board of Governors of Federal Reserve System [link](https://www.federalreserve.gov/releases/g19/current/default.htm)*
+
+17. Federal Student Loan Program Data by Office of Federal Student Aid [link](https://catalog.data.gov/dataset/federal-student-loan-program-data)
