@@ -47,3 +47,7 @@ Mostly research blogs, report and articles related to student education treds
 12. Number of postsecondary students who entered the student loan repayment phase, number of students who defaulted within a 3-year period, and 3-year student loan cohort default rate, by level and control of institution: Fiscal years 2010 through 2014 by [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_332.50.asp)
 
 13. Degrees conferred by postsecondary institutions, by level of degree and sex of student: Selected years, 1869-70 through 2028-29 by NCES [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_318.10.asp)
+
+14. Average undergraduate tuition and fees and room and board rates charged for full-time students in degree-granting postsecondary institutions, by level and control of institution: Selected years, 1963-64 through 2017-18 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_330.10.asp)*
+
+15. Percentage of undergraduate degree/certificate completers who ever received loans and average cumulative amount borrowed, by degree level, selected student characteristics, and institution control: Selected years, 1999-2000 through 2015-16 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_331.95.asp)
