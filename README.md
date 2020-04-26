@@ -28,7 +28,7 @@ Mostly research blogs, report and articles related to student education treds
 
 6. Average graduate tuition and required fees in degree-granting postsecondary institutions, by control of institution and percentile of charges: 1989-90 through 2016-17 [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_330.50.asp)*
 
-7. Percentage of graduate degree completers with student loan debt and average cumulative amount owed, by level of education funded and graduate degree type, institution control, and degree program: Selected years, 1999-2000 through 2015-16 by NCES[link](https://nces.ed.gov/programs/digest/d17/tables/dt17_332.45.asp)
+7. Percentage of graduate degree completers with student loan debt and average cumulative amount owed, by level of education funded and graduate degree type, institution control, and degree program: Selected years, 1999-2000 through 2015-16 by NCES [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_332.45.asp)*
 
 8. Student loan statistic data by Federal Reserve Bank of New York [link](https://www.newyorkfed.org/microeconomics/databank.html)
 
