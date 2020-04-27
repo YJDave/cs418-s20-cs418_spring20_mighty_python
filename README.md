@@ -34,6 +34,8 @@ Mostly research blogs, report and articles related to student education treds
 
 10. Just Released: Press Briefing on Student Loan Borrowing and Repayment Trends, 2015 by New York Fed [link](https://libertystreeteconomics.newyorkfed.org/2015/04/just-released-press-briefing-on-student-loan-borrowing-and-repayment-trends-2015.html)*
 
+11. How many educational institutions exist in the United States? by NCES [link](https://nces.ed.gov/fastfacts/display.asp?id=84)
+
 ### Dataset
 
 `*`: Dataset used in project
