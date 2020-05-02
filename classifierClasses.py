@@ -14,6 +14,7 @@ import sklearn.metrics as metrics
 from sklearn.dummy import DummyClassifier
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
+from sklearn.neighbors import KNeighborsClassifier
 
 def ClassifyByAllSchools():
 
@@ -68,3 +69,19 @@ def ClassifyBySchool():
     learner.fit(X_train, y_train)
     prediction = learner.predict(X_test)
     print("SVM Accuracy:",metrics.accuracy_score(y_test, prediction))
+
+def KNNClassifyByAllSchools():
+    df_school = pd.read_csv('data/school_classifier.csv')
+    learner = KNeighborsClassifier()
+
+    X , y = df_school[['Average Debt', 'Earnings']].values.tolist(), df_school['Good Investment']
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
+
+    dummy_clf = DummyClassifier()
+    dummy_clf.fit(X_train, y_train)
+    prediction = dummy_clf.predict(X_test)
+    print("Baseline Classifier Accuracy:",metrics.accuracy_score(y_test, prediction))
+
+    learner.fit(X_train, y_train)
+    prediction = learner.predict(X_test)
+    print("KNN Accuracy:",metrics.accuracy_score(y_test, prediction))
