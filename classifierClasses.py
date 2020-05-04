@@ -33,6 +33,7 @@ def ClassifyByAllSchools():
     learner.fit(X_train, y_train)
     prediction = learner.predict(X_test)
     print("SVM Accuracy:",metrics.accuracy_score(y_test, prediction))
+    plot_SVM_all_results(df_all_schools, learner, "SVM Learner for all Schools and the Majors")
 
 def ClassifyByMajor():
 
@@ -52,6 +53,7 @@ def ClassifyByMajor():
     learner.fit(X_train, y_train)
     prediction = learner.predict(X_test)
     print("SVM Accuracy:",metrics.accuracy_score(y_test, prediction))
+    plot_SVM_results(df_major, learner, "SVM Learner grouped by Major")
 
 def ClassifyBySchool():
 
@@ -69,6 +71,7 @@ def ClassifyBySchool():
     learner.fit(X_train, y_train)
     prediction = learner.predict(X_test)
     print("SVM Accuracy:",metrics.accuracy_score(y_test, prediction))
+    plot_SVM_results(df_school, learner, "SVM Learner grouped by School")
 
 def KNNClassifyByAllSchools():
     df_school = pd.read_csv('data/school_classifier.csv')
@@ -85,3 +88,67 @@ def KNNClassifyByAllSchools():
     learner.fit(X_train, y_train)
     prediction = learner.predict(X_test)
     print("KNN Accuracy:",metrics.accuracy_score(y_test, prediction))
+    
+def plot_SVM_results(df, learner, text):
+
+    df_plot=df.replace(False, 0)
+    df_plot=df.replace(True, 1)
+    X=df_plot.iloc[:,1:3]
+    y=df_plot['Good Investment']
+    #plt.scatter(X.iloc[:, 0], X.iloc[:, 1], c=y, s=50, cmap='autumn')
+    #plt.scatter(learner.support_vectors_[:,0],learner.support_vectors_[:,1])
+    
+    ax = plt.gca()
+    scatter = plt.scatter(X.iloc[:, 0], X.iloc[:, 1], c=y, s=50, cmap='cool')
+    xlim = ax.get_xlim()
+    ylim = ax.get_ylim()
+
+    xx = np.linspace(xlim[0], xlim[1], 30)
+    yy = np.linspace(ylim[0], ylim[1], 30)
+    YY, XX = np.meshgrid(yy, xx)
+    xy = np.vstack([XX.ravel(), YY.ravel()]).T
+    Z = learner.decision_function(xy).reshape(XX.shape)
+
+    ax.contour(XX, YY, Z, colors='k', levels=[-1, 0, 1], alpha=0.5,
+               linestyles=['--', '-', '--'])
+
+    ax.scatter(learner.support_vectors_[:, 0], learner.support_vectors_[:, 1], s=100,
+               linewidth=1, facecolors='none', edgecolors='k')
+    plt.title(text)
+    plt.xlabel("Average Debts")
+    plt.ylabel("Average Salaries")
+    plt.legend(handles = scatter.legend_elements()[0], labels = ['False','True'] )
+    plt.show()
+    return
+
+def plot_SVM_all_results(df, learner, text):
+
+    df_plot=df.replace(False, 0)
+    df_plot=df.replace(True, 1)
+    X=df_plot.iloc[:,2:4]
+    y=df_plot['Good Investment']
+    #plt.scatter(X.iloc[:, 0], X.iloc[:, 1], c=y, s=50, cmap='autumn')
+    #plt.scatter(learner.support_vectors_[:,0],learner.support_vectors_[:,1])
+    
+    ax = plt.gca()
+    scatter = plt.scatter(X.iloc[:, 0], X.iloc[:, 1], c=y, s=50, cmap='cool')
+    xlim = ax.get_xlim()
+    ylim = ax.get_ylim()
+
+    xx = np.linspace(xlim[0], xlim[1], 30)
+    yy = np.linspace(ylim[0], ylim[1], 30)
+    YY, XX = np.meshgrid(yy, xx)
+    xy = np.vstack([XX.ravel(), YY.ravel()]).T
+    Z = learner.decision_function(xy).reshape(XX.shape)
+
+    ax.contour(XX, YY, Z, colors='k', levels=[-1, 0, 1], alpha=0.5,
+               linestyles=['--', '-', '--'])
+
+    ax.scatter(learner.support_vectors_[:, 0], learner.support_vectors_[:, 1], s=100,
+               linewidth=1, facecolors='none', edgecolors='k')
+    plt.title(text)
+    plt.xlabel("Average Debts")
+    plt.ylabel("Average Salaries")
+    plt.legend(handles = scatter.legend_elements()[0], labels = ['False','True'] )
+    plt.show()
+    return
