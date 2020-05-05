@@ -1,5 +1,21 @@
 
 # cs418-s20-cs418_spring20_mighty_python
+# Eduworth
+## Is higher education worthwhile financially?
+Understand, Analyse and Predict The graduate education enrollment data of institutes in United States
+
+
+## Team: Mighty Python
+
+#### Members
+Alexander Adrahtas, Conway Dang, Jessica Ni, Sean Barber, Yashashvi Dave
+**Email**: aadrah2, cdang4, jn5, sbarbe2, ydave4
+**GitHub**: aadrah2, Xiansia, jni77, SeanBarber, YJDave
+
+Part of coursework CS418 Introduction to Data Science
+Under Professor Elena Zheleva
+At University of Illinois in Chicago
+
 
 ## Files description
 #### ```data/```
