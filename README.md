@@ -1,8 +1,11 @@
 # cs418-s20-cs418_spring20_mighty_python
 
-### How to use our project
+### How to use our data visualization
+1. [Student Debt and Earnings Sort](https://datastudio.google.com/open/1g6G-O8LygSsjNdDV32BJNbLDH6IjJqIA)
+2. ["Best Value" Schools](https://datastudio.google.com/u/0/reporting/1UYDnVQdFf6_hKf1z2TgFMWtHsNvXl8s6/page/5WZNB)
 
-## Data
+
+### Data
 
 1. In the data directory you see our cleaned data, the main files include ```best_value_data.csv```, ```major_classifier.csv```, ```school_classifier.csv```, and ```all_school_classifier.csv```
 
@@ -10,8 +13,6 @@
 
 3. ```major_classifier.csv```, ```school_classifier.csv```, and ```all_school_classifier.csv``` contains the dataframe as a CSV from the data prepared for the classifier functions. This makes it easy to pass through to our classifier class.
 
-## ML/Stats
- 
 ### TODO:
 
 - [ ] Add instructions on how to access the repository and all files metada details. 
