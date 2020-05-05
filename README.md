@@ -1,5 +1,17 @@
 # cs418-s20-cs418_spring20_mighty_python
 
+### How to use our project
+
+## Data
+
+1. In the data directory you see our cleaned data, the main files include ```best_value_data.csv```, ```major_classifier.csv```, ```school_classifier.csv```, and ```all_school_classifier.csv```
+
+2. ```best_value_data.csv``` contains our cleaned dataset with the best value column calcuated from earnings divided by debt
+
+3. ```major_classifier.csv```, ```school_classifier.csv```, and ```all_school_classifier.csv``` contains the dataframe as a CSV from the data prepared for the classifier functions. This makes it easy to pass through to our classifier class.
+
+## ML/Stats
+ 
 ### TODO:
 
 - [ ] Add instructions on how to access the repository and all files metada details. 
