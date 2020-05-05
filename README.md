@@ -2,8 +2,10 @@
 
 ### How to use our data visualization
 1. [Student Debt and Earnings Sort](https://datastudio.google.com/open/1g6G-O8LygSsjNdDV32BJNbLDH6IjJqIA)
-2. ["Best Value" Schools](https://datastudio.google.com/u/0/reporting/1UYDnVQdFf6_hKf1z2TgFMWtHsNvXl8s6/page/5WZNB)
+To use click on the link, which then allows you to sort the data by state, instituion name, degree name, debt, and earnings. See Final Report for analysis.
 
+2. ["Best Value" Schools](https://datastudio.google.com/u/0/reporting/1UYDnVQdFf6_hKf1z2TgFMWtHsNvXl8s6/page/5WZNB)
+To use click on the link, which then allows you to sort the data by state and major. This shows the earnings divded by debt. See Final Report for analysis.
 
 ### Data
 
