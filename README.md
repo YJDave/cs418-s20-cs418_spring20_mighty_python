@@ -1,9 +1,13 @@
+
 # cs418-s20-cs418_spring20_mighty_python
 
-### Files description
-```data/```: Contains the data used in the project
+## Files description
+#### ```data/```
 
-```sean-eda.ipynb```
+Contains the data used in the project
+
+#### ```sean-eda.ipynb```
+
 This file contains code/implementation for...
 
 1. Data cleaning of CollegeSchool Board data for interactive visualization. This notebook loads the data from [CollegeBoard](https://collegescorecard.ed.gov/data/) and clean file `MERGED2017_18_PP.csv` (all U.S. university wise data of year 2017-2018) and `FieldOfStudyData1516_1617_PP.csv` (Field wise salary, debt etc. data). The cleaned data is stored as `cleaned_college_data.csv` and `cleaned_salary_data.csv` under `data/` directory. Both file data are further merged and mapped to `best_value_data.csv` for data visualization and ML model.
@@ -12,7 +16,8 @@ This file contains code/implementation for...
 
 3. Tried different ML model to classify the 2017-2018 year college data into Best value or not. i.e. `KNeighborsClassifier, MLPClassifier`
 
-```main.ipynb```
+#### ```main.ipynb```
+
 This file contains code/implementation for...
 
 1. Data visualization about different trends i.e. student enrollment growth, student debt growth, graduation expenses, student loan distributions, current post secondary enrollment distributions etc. All the data used in the file is stored inside `data/` directory, for which description is given below. The preprocessing for this data is either done manual if very minor of done in this script. Different visualizations with their data source, takeaways and description is included in file.
@@ -21,7 +26,8 @@ This file contains code/implementation for...
 
 NOTE: When you run, the code load csv data from `MERGED*_*_PP.csv` file is commented. Because, the files are not included in repository as it is very large dataset. If you want to run the script to load data from all csvs then you need to first download the data from [CollegeBoard](https://collegescorecard.ed.gov/data/) and provide the path to download files in script.
 
-```SVM_learner.csv```
+#### ```SVM_learner.csv```
+
 This file contains code/implementation for...
 
 1. Machine Learning model for classification of schools, majors and major at school into Best value or not. The model is trained on preprocessed data `best_value_data.csv` from [CollegeBoard](https://collegescorecard.ed.gov/data/) of year 2017-2018. The further data cleaning and manipulation for the model is included in notebook. The results of the SVM model using `sklearn` is also included in notebook.
@@ -29,7 +35,7 @@ This file contains code/implementation for...
 All other files are indirectly used in above files or for project/presentation submission.
 
 
-### How to use our interactive data visualization
+## How to use our interactive data visualization
 1. [Student Debt and Earnings Sort](https://datastudio.google.com/open/1g6G-O8LygSsjNdDV32BJNbLDH6IjJqIA)
 To use click on the link, which then allows you to sort the data by state, instituion name, degree name, debt, and earnings. See Final Report for analysis.
 
@@ -39,7 +45,7 @@ To use click on the link, which then allows you to sort the data by state and ma
 
 Note: Other non-interactive visualizations can be run from file `main.ipynb`
 
-### Data
+## Data
 
 1. In the data directory you see our cleaned data, the main files include ```best_value_data.csv```, ```major_classifier.csv```, ```school_classifier.csv```, and ```all_school_classifier.csv```
 
@@ -52,7 +58,7 @@ Note: Other non-interactive visualizations can be run from file `main.ipynb`
 5. ```UIC_enrollment_data.csv``` is extracted from (`MERGED1996_97_PP, MERGED1998_99_PP, ... to MERGED2018_19_PP`) of [CollegeBoard](https://collegescorecard.ed.gov/data/) dataset, which is used for Linear Regression Machine Learning model.
 
 
-### References
+## References
 Mostly research blogs, report and articles related to student education treds
 
 
@@ -78,7 +84,7 @@ Mostly research blogs, report and articles related to student education treds
 
 11. How many educational institutions exist in the United States? by NCES [link](https://nces.ed.gov/fastfacts/display.asp?id=84)
 
-### Dataset
+## Dataset
 
 1. NCES DataLab, National Center for Educational Statistics [link](https://nces.ed.gov/datalab/index.aspx)*
 
