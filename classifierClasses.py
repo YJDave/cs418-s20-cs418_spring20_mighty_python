@@ -16,6 +16,8 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 from sklearn.neighbors import KNeighborsClassifier
 
+plt.rcParams['figure.figsize'] = [5, 5]
+
 def ClassifyByAllSchools():
 
     df_all_schools = pd.read_csv('data/all_school_classifier.csv')
