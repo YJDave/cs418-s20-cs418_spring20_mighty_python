@@ -15,14 +15,6 @@ To use click on the link, which then allows you to sort the data by state and ma
 
 3. ```major_classifier.csv```, ```school_classifier.csv```, and ```all_school_classifier.csv``` contains the dataframe as a CSV from the data prepared for the classifier functions. This makes it easy to pass through to our classifier class.
 
-### TODO:
-
-- [ ] Add instructions on how to access the repository and all files metada details. 
-- [ ] Add documents/details on what work is done, how it is done, like a brief documentation
-
-
-- [ ] Find and add data in 4.4, 4.5 section in `main.ipynb`
-
 ### References
 Mostly research blogs, report and articles related to student education treds
 
