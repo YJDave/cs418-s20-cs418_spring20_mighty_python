@@ -48,28 +48,10 @@ Mostly research blogs, report and articles related to student education treds
 
 4. Inflation rate in United States by US INFLATION CALCULATOR [link](https://www.usinflationcalculator.com/inflation/historical-inflation-rates/)*
 
-5. Expenditures of educational institutions, by level and control of institution: Selected years, 1899-1900 through 2017-18 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_106.20.asp)
+5. Average graduate tuition and required fees in degree-granting postsecondary institutions, by control of institution and percentile of charges: 1989-90 through 2016-17 [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_330.50.asp)*
 
-6. Average graduate tuition and required fees in degree-granting postsecondary institutions, by control of institution and percentile of charges: 1989-90 through 2016-17 [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_330.50.asp)*
+6. Percentage of graduate degree completers with student loan debt and average cumulative amount owed, by level of education funded and graduate degree type, institution control, and degree program: Selected years, 1999-2000 through 2015-16 by NCES [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_332.45.asp)*
 
-7. Percentage of graduate degree completers with student loan debt and average cumulative amount owed, by level of education funded and graduate degree type, institution control, and degree program: Selected years, 1999-2000 through 2015-16 by NCES [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_332.45.asp)*
+7. Average undergraduate tuition and fees and room and board rates charged for full-time students in degree-granting postsecondary institutions, by level and control of institution: Selected years, 1963-64 through 2017-18 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_330.10.asp)*
 
-8. Student loan statistic data by Federal Reserve Bank of New York [link](https://www.newyorkfed.org/microeconomics/databank.html)
-
-9. List of educational dataset by University of California San Diago [link](https://ucsd.libguides.com/data-statistics/education)
-
-10. Database of Accredited Postsecondary Institutions and Programs [link](https://ope.ed.gov/dapip/#/home)
-
-11. College Affordability and Transparency List by U.S. Department of Education [link](https://collegecost.ed.gov/affordability)
-
-12. Number of postsecondary students who entered the student loan repayment phase, number of students who defaulted within a 3-year period, and 3-year student loan cohort default rate, by level and control of institution: Fiscal years 2010 through 2014 by [link](https://nces.ed.gov/programs/digest/d17/tables/dt17_332.50.asp)
-
-13. Degrees conferred by postsecondary institutions, by level of degree and sex of student: Selected years, 1869-70 through 2028-29 by NCES [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_318.10.asp)
-
-14. Average undergraduate tuition and fees and room and board rates charged for full-time students in degree-granting postsecondary institutions, by level and control of institution: Selected years, 1963-64 through 2017-18 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_330.10.asp)*
-
-15. Percentage of undergraduate degree/certificate completers who ever received loans and average cumulative amount borrowed, by degree level, selected student characteristics, and institution control: Selected years, 1999-2000 through 2015-16 [link](https://nces.ed.gov/programs/digest/d18/tables/dt18_331.95.asp)
-
-16. Different loan statistics by Board of Governors of Federal Reserve System [link](https://www.federalreserve.gov/releases/g19/current/default.htm)*
-
-17. Federal Student Loan Program Data by Office of Federal Student Aid [link](https://catalog.data.gov/dataset/federal-student-loan-program-data)
+8. Different loan statistics by Board of Governors of Federal Reserve System [link](https://www.federalreserve.gov/releases/g19/current/default.htm)*
