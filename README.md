@@ -3,8 +3,6 @@
 ### TODO:
 
 - [ ] Add instructions on how to access the repository and all files metada details. 
-- [ ] Clean repository, remove redundant work and move every file in one structure.
-- [ ] Add previously submitted report, presentation to repository for record.
 - [ ] Add documents/details on what work is done, how it is done, like a brief documentation
 
 
@@ -37,8 +35,6 @@ Mostly research blogs, report and articles related to student education treds
 11. How many educational institutions exist in the United States? by NCES [link](https://nces.ed.gov/fastfacts/display.asp?id=84)
 
 ### Dataset
-
-`*`: Dataset used in project
 
 1. NCES DataLab, National Center for Educational Statistics [link](https://nces.ed.gov/datalab/index.aspx)*
 
